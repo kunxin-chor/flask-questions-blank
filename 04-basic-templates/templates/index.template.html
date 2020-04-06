@@ -8,6 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1></h1>
+<!-- JINJA2 SYNTAX-->
+<!-- use {{x}} to display the content of a variable named x-->
+    <h1>{{message}}</h1>
+
+<!---use the url_for() function to generate an URL to a route-->
+<!-- the first agument for show_gallery is the view function that we want the URL for-->
+<a href="{{ url_for('show_gallery')}}">Gallery</a>
 </body>
 </html>
