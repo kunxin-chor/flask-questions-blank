@@ -1,3 +1,6 @@
+
+#DAL -- data access layer
+#DAO -- data access object
 import csv
 
 # as this is a variable defined outside of any functions
